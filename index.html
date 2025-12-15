@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>clique</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="h1">Bienvenue</h1>
+    <p id="pstart">
+      dans ce jeu interactif et simple, de trois étape, tu devra cliquer, te
+      rappeler de certaine choses.
+    </p>
+
+    <button onclick="start()" id="buttstart">Commencer !</button>
+    
+    <button id="click">
+      <h2>clique moi!</h2>
+      <p>7x87bt</p>
+    </button style="display: none;">
+
+    <h1 id="win">Bravo la première étape est finie !</h1 > 
+    <button id="next"><a href="/etape2/index.html">aller à la prochaine</a></button>
+
+    <div id="lose">
+        <h1>Temps écoulé !</h1>
+        <button onclick="restart()">recommencer</button>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>
