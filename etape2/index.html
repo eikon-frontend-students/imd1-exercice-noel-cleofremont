@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>étape 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>étape 2</h1>
+    <p>
+      de quelle couleur était le bouton avant d'avoir cliqué dessus la première
+      fois?
+    </p>
+    <div id="button">
+      <button id="i1" onclick="lose()"></button>
+      <button id="i2" onclick="lose()"></button>
+      <button id="i3" onclick="lose()"></button>
+      <button id="good" onclick="next()"></button>
+      <button id="i5" onclick="lose()"></button>
+      <button id="i6" onclick="lose()"></button>
+      <button id="i7" onclick="lose()"></button>
+      <button id="i8" onclick="lose()"></button>
+      <button id="i9" onclick="lose()"></button>
+    </div>
+    <div id="lose">
+      <h1>Perdu !</h1>
+      <p>
+        Ce n'était pas la bonne couleur.
+        <button onclick="restart()" id="restart">recommencer</button>
+      </p>
+    </div>
+
+    <div id="next">
+      <h1>Bravo, tu as trouvé la bonne couleur !</h1>
+      <button>
+        <a href="/etape3/index.html">aller à la prochaine étape</a>
+      </button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

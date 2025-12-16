@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(194, 226, 237);
+  text-align: center;
+  margin-top: 200px;
+}
+
+#lose {
+  display: none;
+}
+#win {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  width: 150px;
+  min-height: 50px;
+  text-align: center;
+  color: black;
+  border-radius: 9px;
+}
